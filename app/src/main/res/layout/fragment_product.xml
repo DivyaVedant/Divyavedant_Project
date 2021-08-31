@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/brand"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="8dp"
+        android:text=" Navratri Jewellery"
+        android:textColor="#3F51B5"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="465dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="20dp"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brand">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="143dp"
+            android:layout_height="135dp"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/twolayerset" />
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="163dp"
+            android:layout_height="126dp"
+            app:layout_column="5"
+            app:layout_row="0"
+            app:srcCompat="@drawable/mugat" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="145dp"
+            android:layout_height="wrap_content"
+            android:text="Two Layer Set combo"
+            app:layout_column="0"
+            app:layout_row="1" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="golden Crown"
+            app:layout_column="5"
+            app:layout_row="1"
+            android:layout_marginLeft="40dp"/>
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="110dp"
+            android:layout_height="125dp"
+            app:layout_column="0"
+            android:layout_marginLeft="15dp"
+            app:layout_row="2"
+            app:srcCompat="@drawable/earings" />
+
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="149dp"
+            android:layout_height="115dp"
+            app:layout_column="5"
+            app:layout_row="2"
+            android:layout_marginTop="10px"
+            app:srcCompat="@drawable/earingandmugat" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pink golden Earing"
+            app:layout_column="0"
+            android:layout_marginLeft="10dp"
+            app:layout_row="3" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver whole Jewellery"
+            app:layout_column="5"
+            app:layout_row="3" />
+
+        <ImageView
+            android:id="@+id/img5"
+            android:layout_width="110dp"
+            android:layout_height="119dp"
+            app:layout_column="0"
+            app:layout_row="4"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/pearlmugat" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perl Crown"
+            app:layout_column="0"
+            android:layout_marginLeft="30dp"
+            app:layout_row="5" />
+
+        <ImageView
+            android:id="@+id/img6"
+            android:layout_width="156dp"
+            android:layout_height="123dp"
+            app:layout_column="5"
+            app:layout_row="4"
+            app:srcCompat="@drawable/colorset" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Color Dimound set"
+            app:layout_column="5"
+            android:layout_marginLeft="20dp"
+            app:layout_row="5" />
+
+
+    </android.support.v7.widget.GridLayout>
+
+</android.support.constraint.ConstraintLayout>
